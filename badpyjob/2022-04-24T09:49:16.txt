@@ -1,0 +1,27 @@
+{"name": "badpyjob", "command": "python jobs/badpyjob.py", "run_id": "f7722a8d", "attempt": 1, "timestamp": "2022-04-24 09:49:16.085905"}
+[INFO] starting!
+Traceback (most recent call last):
+  File "jobs/badpyjob.py", line 11, in <module>
+    func2(func1(1, '1'))
+  File "jobs/badpyjob.py", line 2, in func1
+    return a + b
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+{"name": "badpyjob", "command": "python jobs/badpyjob.py", "run_id": "f7722a8d", "attempt": 2, "timestamp": "2022-04-24 09:49:16.100616"}
+[INFO] starting!
+Traceback (most recent call last):
+  File "jobs/badpyjob.py", line 11, in <module>
+    func2(func1(1, '1'))
+  File "jobs/badpyjob.py", line 2, in func1
+    return a + b
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+{"name": "badpyjob", "command": "python jobs/badpyjob.py", "run_id": "f7722a8d", "attempt": 3, "timestamp": "2022-04-24 09:49:16.114800"}
+[INFO] starting!
+Traceback (most recent call last):
+  File "jobs/badpyjob.py", line 11, in <module>
+    func2(func1(1, '1'))
+  File "jobs/badpyjob.py", line 2, in func1
+    return a + b
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
